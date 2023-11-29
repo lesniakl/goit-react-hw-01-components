@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 10px;
+  border: solid 1px black;
+}
+
+.on {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border-radius: 50%;
+}
+
+.off {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border-radius: 50%;
+}

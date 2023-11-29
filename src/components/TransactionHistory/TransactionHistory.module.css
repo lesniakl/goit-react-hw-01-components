@@ -1,0 +1,30 @@
+.history {
+  border: solid 1px black;
+  width: 800px;
+  text-align: center;
+}
+.tablehead {
+  color: white;
+  background-color: #267a87;
+}
+
+.headcell {
+  padding: 10px;
+}
+
+.bodycell {
+  padding: 5px;
+}
+
+.bodycellType {
+  composes: bodycell;
+  text-transform: capitalize;
+}
+
+.tablebody tr:nth-child(odd) {
+  background-color: #91c2c9;
+}
+
+.tablebody tr:nth-child(even) {
+  background-color: #82abb1;
+}

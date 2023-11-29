@@ -11,8 +11,9 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
+        gap: '20px',
+        margin: '20px 0px',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
